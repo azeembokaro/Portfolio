@@ -1,0 +1,244 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p
+{
+    font-family: 'Poppins', sans-serif;
+}
+a{text-decoration:  none;}
+a:hover{text-decoration: none;}
+li{list-style-type:none ;}
+.Main
+{
+    background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),
+    url('P3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: relative;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
+}
+.Background h1
+{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1rem;
+    
+}
+.Background h2
+{
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1rem;
+    padding:1rem 0 4rem 0;
+}
+.Background
+{
+    position: relative;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+}
+.Main:before
+{
+    content:"";
+    position: absolute;
+    top:0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .2;
+    z-index:-1;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+}
+.navbar .navbar-brand
+{
+    color: greenyellow;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar .navbar-nav .nav-item a
+{
+    width: 100%;
+    color: darkgoldenrod;
+    font-size: 2.6rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+}
+.Central
+{
+width: 100%;
+height: auto;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+-ms-transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+}
+.Central a
+{
+    border:1px solid white;
+    border-radius: 2rem;
+    font-size: 2.6rem;
+    margin: 4rem 3rem 0 3rem;
+    padding:1rem 1rem 1rem 1rem;
+    background: aqua;
+}
+.Central a:hover
+{
+    color: black;
+    background: lime;
+}
+.Cards
+{
+    width:100%;
+    height: 50vh;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+.Cards h1
+{
+    color: dodgerblue;
+    text-align: center;
+    font-size: 3.6rem;
+    padding-bottom: 1.8rem;
+}
+.Cards p
+{
+    font-size: 1.8rem;
+}
+.Extra-div
+{
+    width: 100%;
+    height: auto;
+    padding:2rem 2.5rem!important;
+    border-radius:1rem;
+    transition: 0.3s;
+
+}
+.Extra-div:hover
+{
+box-shadow: 0 0 2rem rgba(0,0,0,0.3);
+transform: translateY(-2rem);
+}
+.Progress
+{
+    width: 100%;
+    height: 100vh;
+}
+.Progress h1
+{
+    font-size: 5rem;
+    color: #1e5799;
+    font-weight: bold;
+    text-align: center;
+}
+.Bar h2
+{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+.Services
+{
+margin-top: 1rem;
+}
+.Services h1
+{
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+i
+{
+    color: #3ccdbb;
+}
+.Icons
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Project
+{
+    width: 100%;
+    height: 50vh;    
+}
+.Project h1
+{
+    text-align: center;
+    color: orange;
+    font-size: 3rem;
+    padding:3rem 0;
+}
+.Project p
+{
+    font-size: 3rem;
+}
+.Project h2
+{
+    text-align: center;
+}
+.Price
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding:5rem;
+
+}
+.Price:before
+{
+    content:"";
+    position: absolute;
+    top:0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    z-index:-1;
+    background: linear-gradient(160deg,#16c9f6 55%,#fff 0%);
+}
+.Price h1
+{
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 3rem;
+    padding:3rem 0rem;
+}
+.Price p
+{
+    text-align: center;
+    color: gray;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.Card-header
+{
+    background: #fff;
+    padding:2rem 1rem!important;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1!important;
+}
+.card-body
+{
+    font-size: 2rem;
+    padding:4rem 5rem!important;
+}
+.Money
+{
+    line-height: 1;
+    font-size: 2rem;
+}
